@@ -1,6 +1,6 @@
 # js-base
 
-A Typescript + PostCSS + Tailwind CSS + ES-Lint + Snowpack template.
+A Typescript + PostCSS + Tailwind CSS + ES-Lint + Vite template.
 
 ### VSCode
 
