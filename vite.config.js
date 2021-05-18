@@ -9,8 +9,10 @@ export default defineConfig({
     minifyHtml(),
   ],
 
+  publicDir: '../public',
+
   build: {
-    outDir: 'build'
+    outDir: '../build'
   }
   // Custom config here...
 });
