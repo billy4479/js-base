@@ -1,14 +1,12 @@
 import { defineConfig } from 'vite';
 
-import { minifyHtml } from 'vite-plugin-html';
+import { createHtmlPlugin } from 'vite-plugin-html';
 
 export default defineConfig({
-  plugins: [
-    minifyHtml(),
-  ],
+  plugins: [createHtmlPlugin()],
 
   build: {
-    outDir: 'build'
-  }
+    outDir: 'build',
+  },
   // Custom config here...
 });
